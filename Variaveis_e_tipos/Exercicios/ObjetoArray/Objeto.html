@@ -10,7 +10,10 @@
 
 <h1>JavaScript Arrays</h1>
 
-<h2 id="teste"></h2>
+<h2 id="nomeCompleto"></h2>
+<h2 id="caracter"></h2>
+
+
 
 <script>
 
@@ -24,8 +27,11 @@ var pessoa = {
 		}
 };
 
-document.getElementById("teste").innerHTML = pessoa.nomeCompleto();
+document.getElementById("nomeCompleto").innerHTML = pessoa.nomeCompleto();
 
+document.getElementById("caracter").innerHTML = "o nome completo possue" + " " + pessoa.nomeCompleto().length + " " + "caracteres";		//length serve para mostrar a quantidades de itens ou caracteres
+
+console.log(pessoa.length);
 </script>
 
 </body>
