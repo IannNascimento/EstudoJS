@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta  charset="utf-8">
+<title>  Data e hora  </title>
+
+</head>
+<body>
+<h1> Exemplos de data e hora</h1>
+<h2 id="getDate"></h2>
+<h2 id="getday"></h2>
+<h2 id="getFullYear"></h2>
+<h2 id="getHours"></h2>
+<h2 id="getMilliseconds"></h2>
+<h2 id="getMinutes"></h2>
+<h2 id="getMonth"></h2>
+<h2 id="getSeconds"></h2>
+<h2 id="getTime"></h2>
+<h2 id="dataFormatada"></h2>
+
+<script>
+    var d = new Date();
+    
+    document.getElementById("getDate").innerHTML = "getDate mostra o dia de hoje" + " - " + d.getDate();
+    document.getElementById("getday").innerHTML = "getDate mostra o dia da semana" + " - " + d.getDay() + " " + "(Começando por domigo = 0)";
+    document.getElementById("getFullYear").innerHTML = "getDate mostra o ano" + " - " + d.getFullYear();
+    document.getElementById("getHours").innerHTML = "getDate mostra a hora atual" + " - " + d.getHours();
+    document.getElementById("getMilliseconds").innerHTML = "getDate mostra o tempo em mille segundos" + " - " + d.getMilliseconds();
+    document.getElementById("getMinutes").innerHTML = "getDate mostra o munuto atual" + " - " + d.getMinutes();
+    document.getElementById("getMonth").innerHTML = "getDate mostra o mês do ano" + " - " + d.getMonth() + " " + "(Começando por janeiro = 0)";
+    document.getElementById("getSeconds").innerHTML = "getDate mostra o segundo atual" + " - " + d.getSeconds();
+    document.getElementById("getTime").innerHTML = "getDate mostra o tempo em mille segundos apartir do ano 1970" + " - " + d.getTime();
+    
+    //O comando get "recupera" a data/hora atual
+    //O comando set define a data/hora
+
+    function dataFormatada(data = new Date()){
+        var dia = data.getDate();
+        var mes = data.getMonth()+1;
+        var ano = data.getFullYear();
+
+        if (dia.toString().length == 1) dia = "0" + dia;
+        if (mes.toString().length == 1) mes = "0" + mes;
+
+        return dia + "/" + mes + "/" + ano;
+
+    };
+
+    document.getElementById("dataFormatada").innerHTML = dataFormatada();
+    console.log(dataFormatada());
+
+
+    console.log(d.getDate())
+    console.log(d.getDay())
+    console.log(d.getFullYear())
+    console.log(d.getHours())
+    console.log(d.getMilliseconds())
+    console.log(d.getMinutes())
+    console.log(d.getMonth())
+    console.log(d.getSeconds())
+    console.log(d.getTime())
+
+   
+</script>
+
+</body>
+</html>
