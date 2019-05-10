@@ -9,8 +9,19 @@ Dentro de EstudosJS, encontrará os seguintes arquivos.
 EstudosJS
 │
 ├── README.md
+│
 ├── conceito
 │     └── README.md
+│
+├── Funcoes
+│     ├── README.md
+│     └── Exercicios
+│           ├── Funcao1.html
+│           ├── Funcao2.html
+│           ├── Funcao3.html
+│           ├── Funcao4.html
+│           └── Funcao5.html
+│
 ├── Variaveis_e_tipos
 │     ├── README.md
 │     └── Exercicios
@@ -20,6 +31,4 @@ EstudosJS
 │           ├── Variavel2.html
 │           ├── Variavel3.html
 │           └── Variavel4.html
-
-
  ```
