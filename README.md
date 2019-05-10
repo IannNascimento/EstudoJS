@@ -22,13 +22,20 @@ EstudosJS
 │           ├── Funcao4.html
 │           └── Funcao5.html
 │
+├── Strings_e_numeros
+│     ├── StringNum1.html
+│     ├── StringNum2.html
+│     └── StringNum3.html
+│
 ├── Variaveis_e_tipos
 │     ├── README.md
 │     └── Exercicios
-│           ├── Array.html
-│           ├── Objeto.html
-│           ├── Variavel1.html
-│           ├── Variavel2.html
-│           ├── Variavel3.html
-│           └── Variavel4.html
+│           ├── ObjetoArray
+│           │    ├── Array.html
+│           │    └── Objeto.html
+│           └── Variavel
+│                ├── Variavel1.html
+│                ├── Variavel2.html
+│                ├── Variavel3.html
+│                └── Variavel4.html
  ```
