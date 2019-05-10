@@ -27,15 +27,15 @@ EstudosJS
 │     ├── StringNum2.html
 │     └── StringNum3.html
 │
-├── Variaveis_e_tipos
-│     ├── README.md
-│     └── Exercicios
-│           ├── ObjetoArray
-│           │    ├── Array.html
-│           │    └── Objeto.html
-│           └── Variavel
-│                ├── Variavel1.html
-│                ├── Variavel2.html
-│                ├── Variavel3.html
-│                └── Variavel4.html
+└── Variaveis_e_tipos
+     ├── README.md
+     └── Exercicios
+           ├── ObjetoArray
+           │    ├── Array.html
+           │    └── Objeto.html
+           └── Variavel
+                ├── Variavel1.html
+                ├── Variavel2.html
+                ├── Variavel3.html
+                └── Variavel4.html
  ```
