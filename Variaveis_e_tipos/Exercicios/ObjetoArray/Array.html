@@ -11,10 +11,28 @@
 <h1>JavaScript Arrays</h1>
 
 <h2 id="nomeEscolhido"></h2>
+<h2 id="dados"></h2>
+<h2 id="dadosString"></h2>
+<h2 id="dadosJoin"></h2>
+<h2 id="dadossort"></h2>
+
 
 <script>
-var dados = ["nome1", "nome2", "nome3"];
-document.getElementById("nomeEscolhido").innerHTML = dados [1];
+var dados = ["Iann", "Jimmy", "Bolota"];
+
+document.getElementById("nomeEscolhido").innerHTML = dados [1];     //"dados [1]" especifica qual item a ser demontrado
+
+document.getElementById("dados").innerHTML = dados;     //mostra todos itens do array
+
+document.getElementById("dadosString").innerHTML = dados.toString();        //trasnforma os dados em textos
+
+document.getElementById("dadosJoin").innerHTML = dados.join(" - ");     //join adiciona dados entre os itens
+
+document.getElementById("dadossort").innerHTML = dados.sort();      //sort organiza itens em ordem alfabetica
+
+dados.push("nome4")     //push adiciona um item no final do array
+
+console.log(dados.length);      //length serve para mostrar a quantidades de itens do array
 </script>
 
 </body>
