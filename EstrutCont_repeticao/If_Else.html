@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta  charset="utf-8">
+<title> Estruturas de controle e repetição </title>
+
+</head>
+<body>
+<h1> IF, ELSE e ELSE IF</h1>
+<h2 id="demo"></h2>
+<h2 id="maiorMenor"></h2>
+
+    <script>
+    /*
+        Alguns sugnificados de sinais
+
+        ==  igual a
+        === igual em valor e tipo
+        !=  diferente de
+        !== diferente em valor e tipo
+        >   maior que
+        <   menor que
+        >=  maior ou igual a
+        <=  menor ou igual a
+
+        &&  e 
+        ││  ou
+        !   não
+    */
+    /*
+        Comando if
+
+        if (condição){
+            codigo a ser executado
+        }
+
+    */
+        var n = 5;
+        if (n > 5){
+            document.getElementById("demo").innerHTML = "O número é maior que 5"
+        } else if (n == 5){
+            document.getElementById("demo").innerHTML = "O número é 5"
+        }
+        else {
+            document.getElementById("demo").innerHTML = "O numero é menor que 5"
+        }
+
+
+
+        if (n > 5){
+            console.log("O número é maior que 5")
+        } else if (n == 5){
+            console.log("O número é 5")
+        }
+        else {
+            console.log("O numero é menor que 5")
+        }
+
+        // Operador ternário
+
+        var idade = 19;
+        var situacao = (idade >= 18) ? "Maior idade" : "Menor idade"
+
+        document.getElementById("maiorMenor").innerHTML = situacao;
+        console.log(situacao);
+
+
+
+    </script>
+
+</body>
+</html>

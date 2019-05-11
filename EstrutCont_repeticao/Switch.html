@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta  charset="utf-8">
+<title> Estruturas de controle e repetição </title>
+
+</head>
+<body>
+<h1> Switch </h1>
+<h2 id="msg"></h2>
+
+
+    <script>
+        /*
+        Estrutura de controle switch
+            estrutura basica
+
+        switch () {
+            case condição:
+                codigo
+                break;
+            default:
+                codigo    
+        }
+        */
+
+        var diaSemana = new Date().getDate();
+        switch (diaSemana) {
+            case 6:
+                document.getElementById("msg").innerHTML = "Hoje é sabado, dia de tomar uma com os amigos";
+                console.log("Hoje é sabado, dia de tomar uma com os amigos");
+                break;
+            case 0:
+                document.getElementById("msg").innerHTML = "Hoje é domingo, dia de curar a ressaca";
+                console.log("Hoje é domingo, dia de curar a ressaca");
+            default:
+            document.getElementById("msg").innerHTML = "Hoje é dia de feira, Bora trampar";
+                console.log("Hoje é dia de feira, Bora trampar");
+                break;
+        }
+
+
+    </script>
+
+</body>
+</html>
