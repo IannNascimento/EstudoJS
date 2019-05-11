@@ -16,6 +16,12 @@ EstudosJS
 ├── DataHora
 │     └── DataHora.html
 │
+├── EstrutCont_repeticao
+│     ├── For.html
+│     ├── If_Else.html
+│     ├── Switch.html
+│     └── While.html
+│
 ├── Funcoes
 │     ├── README.md
 │     └── Exercicios
