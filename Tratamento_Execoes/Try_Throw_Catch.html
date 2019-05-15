@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Tratamento de Exeções</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+    <p>Informe um número entre 5 e 10:</p>
+    <input type="text" id="numero">
+    <button onclick="verifica()">Verificar</button>
+    <p id="msg"></p>
+
+<script>
+    function verifica(){
+    var x = document.getElementById("numero").value;
+    
+    try {
+        if (x == "") throw "Informe um valor";
+        if (isNaN(x)) throw "O valor deve ser um número";
+        if (x < 5) throw "O número " + x + " é menor que 5";
+        if (x > 10) throw "O número " + x + " é maior que 10";
+
+        document.getElementById("msg").innerHTML = "Beleza!! O número " + x + " é válido!";
+        } catch (error) {
+        document.getElementById("msg").innerHTML = "Erro: " + error;
+    }
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<div id="div1">
+<p id="p1">Primeiro paragrafo</p>
+<p id="p2">Segundo paragrafo</p>
+</div>
+
+<script>
+    var pAd = document.createElement("p");
+    var txtAd = document.createTextNode("Terceiro paragrafo");
+    pAd.appendChild(txtAd);
+    var element = document.getElementById("div1");
+    element.appendChild(pAd);
+</script>
+
+</body>
+</html>

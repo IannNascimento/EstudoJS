@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <ul id="lista"><li>Café</li><li>Pão</li><li>Leite</li></ul>
+
+    <p>Clique no botão para remover o primeiro item da lista.</p>
+    
+    <button onclick="myFunction()">Remover</button>
+    
+    <script>
+    function myFunction() {
+        var list = document.getElementById("lista");
+        list.removeChild(list.childNodes[0]);
+    }
+    </script>
+</body>
+</html>
