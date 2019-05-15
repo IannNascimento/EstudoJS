@@ -13,6 +13,10 @@ EstudosJS
 ├── conceito
 │     └── README.md
 │
+├── Create_Remove
+│     ├── CreateElement.html
+│     └── RemoveChild.html
+│
 ├── DataHora
 │     └── DataHora.html
 │
@@ -31,10 +35,16 @@ EstudosJS
 │           ├── Funcao4.html
 │           └── Funcao5.html
 │
+├── JQuery
+│     └── EX_JQuery.html
+│
 ├── Strings_e_numeros
 │     ├── StringNum1.html
 │     ├── StringNum2.html
 │     └── StringNum3.html
+│
+├── Tratamento_execoes
+│     └── Try_Throw_Catch.html
 │
 └── Variaveis_e_tipos
      ├── README.md
